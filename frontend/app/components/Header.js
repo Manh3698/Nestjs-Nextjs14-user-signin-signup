@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 export default function Header({ isLoggedIn }) {
   const dispatch = useDispatch();
   const router = useRouter();
-
+  const a = "1";
   const handleModal = (payload) => {
     dispatch(toggleModal(payload));
   }
